@@ -106,36 +106,38 @@ h1 {
     margin: 0 auto;
 }
 .Vision, .Mission, .Value {
-  height: 300px; 
+  height: 300px;
+  position: relative;
 }
-.Vission {
-  overflow: hidden; 
+
+.Vision {
+  overflow: hidden;
 }
 
 .photo1 {
   float: right;
-  margin-left: 20px; 
-  position: absolute;
-  top: 770px; 
-  right: 50px;
+  margin-left: 20px;
+  position: relative; 
+  top: -150px; 
 }
 
-.photo1 img{
+.photo1 img {
   height: 250px;
 }
 
 .text1 {
-  word-wrap: break-word; 
-  max-width: 500px; 
+  word-wrap: break-word;
+  max-width: 500px;
   margin-left: 20px;
   font-size: 1.1rem;
   font-family: "Sedan", serif;
-    font-weight: 400;
-    font-style: normal;
+  font-weight: 400;
+  font-style: normal;
 }
+
 #vi{
   word-wrap: break-word; 
-  max-width: 500px;
+  max-width: 500px; 
   margin-left: 20px;
   font-size: 1.5rem;
   font-family: "Sedan", serif;
@@ -150,46 +152,35 @@ h1 {
   }
 }
 
-.Vission hr {
+.Vision hr {
   border: 2px solid #000;
-  width: 50%; 
-  margin: 5px 0; 
+  width: 50%;
+  margin: 5px 0;
 }
+
 .Mission {
   overflow: hidden;
 }
 
 .photo2 {
-  float: left;
-  position: absolute;
-  top: 980px; 
-  left: 40px;
+  float: right;
+  margin-left: 20px;
+  position: relative; 
+  top: -235px; 
 }
 
-.photo2 img{
+.photo2 img {
   height: 250px;
 }
 
 .text2 {
-  position: absolute;
-  right: 60px;
-  top: 1100px;
-  word-wrap: break-word; 
-  max-width: 500px; 
+  word-wrap: break-word;
+  max-width: 500px;
+  margin-left: 20px;
   font-size: 1.1rem;
   font-family: "Sedan", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-#mi{
-  position: absolute;
-  right: 80px;
-  top: 1025px;
-  font-size: 1.5rem;
-  font-family: "Sedan", serif;
-    font-weight: bold;
-    font-style: normal;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @media screen and (max-width: 768px) {
@@ -198,42 +189,47 @@ h1 {
     max-width: 300px;
   }
 }
-
-.Mission hr {
-  position: absolute;
-  right: 60px;
-  top: 1070px;
-  border: 2px solid #000; 
-  width: 50%; 
-  margin: 5px 0; 
+#mi{
+  word-wrap: break-word; 
+  max-width: 500px; 
+  margin-left: 20px;
+  font-size: 1.5rem;
+  font-family: "Sedan", serif;
+    font-weight: bold;
+    font-style: normal;
 }
 
-
+.Mission hr {
+  border: 2px solid #000;
+  width: 50%;
+  margin: 5px 0;
+}
 
 .Value {
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .photo3 {
   float: right;
-  margin-left: 20px; 
-  position: absolute;
-  top: 1270px; 
-  right: 50px;
+  margin-left: 20px;
+  position: relative; 
+  top: -150px; 
 }
 
-.photo3 img{
+.photo3 img {
   height: 250px;
 }
+
 .text3 {
-  word-wrap: break-word; 
-  max-width: 500px; 
+  word-wrap: break-word;
+  max-width: 500px;
   margin-left: 20px;
   font-size: 1.1rem;
   font-family: "Sedan", serif;
-    font-weight: 400;
-    font-style: normal;
+  font-weight: 400;
+  font-style: normal;
 }
+
 #va{
   word-wrap: break-word; 
   max-width: 500px; 
@@ -244,21 +240,18 @@ h1 {
     font-style: normal;
 }
 
-
 @media screen and (max-width: 768px) {
   .text3 p {
     word-wrap: break-word;
     max-width: 300px;
   }
 }
+
 .Value hr {
-  border: 2px solid #000; 
-  width: 50%; 
-  margin: 5px 0; 
+  border: 2px solid #000;
+  width: 50%;
+  margin: 5px 0;
 }
-
-
-
 
 
   
@@ -373,60 +366,57 @@ footer ul li {
   background-color: #45a049; 
 }
 
-/* Your existing CSS code */
 
 .sign-up {
-  /* Existing styles for sign-up section */
-  position: relative; /* Position the sign-up label and background image */
-  text-align: center; /* Center the form elements */
-  margin-bottom: 20px; /* Add some space between sign-up and content */
+  
+  position: relative; 
+  text-align: center; 
+  margin-bottom: 20px; 
 }
 
 .sign-up h2 {
-  color: #fff; /* White color for the heading */
-  margin-bottom: 10px; /* Add some space below the heading */
+  color: #fff; 
+  margin-bottom: 10px; 
 }
 
 .sign-up p {
-  color: #fff; /* White color for the paragraph */
-  margin-bottom: 10px; /* Add some space below the paragraph */
+  color: #fff; 
+  margin-bottom: 10px; 
 }
 
 .sign-up label {
-  /* Existing styles for label */
-  position: absolute; /* Position the label within the sign-up section */
-  top: 50%; /* Position the label vertically centered */
-  left: 10px; /* Position the label to the left of the input field */
-  font-size: 1.2em; /* Increase font size for emphasis */
-  color: #fff; /* White color for the label */
-  background-color: #333; /* Dark background for the label */
-  padding: 5px 10px; /* Add some padding for the label */
-  border-radius: 5px; /* Add rounded corners to the label */
+  position: absolute; 
+  top: 50%; 
+  left: 10px; 
+  font-size: 1.2em; 
+  color: #fff; 
+  background-color: #333; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
 }
 
 .sign-up input {
-  /* Existing styles for input field */
-  width: 250px; /* Adjust width as needed */
+  width: 250px; 
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 20px; /* Add rounded corners */
-  margin-bottom: 10px; /* Add some space below the input field */
+  border-radius: 20px; 
+  margin-bottom: 10px; 
 }
 
 .sign-up input:focus {
-  outline: none; /* Remove default focus outline */
-  box-shadow: 0 0 5px #007bff; /* Add a subtle focus shadow */
+  outline: none; 
+  box-shadow: 0 0 5px #007bff; 
 }
 
 .sign-up button {
-  background-color: #4CAF50; /* Green color for the button */
+  background-color: #4CAF50; 
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 5px; /* Add rounded corners to the button */
+  border-radius: 5px; 
   cursor: pointer;
 }
 
 .sign-up button:hover {
-  background-color: #45a049; /* Darker green color on hover */
+  background-color: #45a049; 
 }
